@@ -13,7 +13,33 @@
 		AF6F74BD24BEDAE60084A760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74BB24BEDAE60084A760 /* Main.storyboard */; };
 		AF6F74BF24BEDAE70084A760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74BE24BEDAE70084A760 /* Assets.xcassets */; };
 		AF6F74C224BEDAE70084A760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74C024BEDAE70084A760 /* LaunchScreen.storyboard */; };
+		AFD36DB524BEECD80078A9EC /* SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; };
+		AFD36DB624BEECD80078A9EC /* SubmoduleExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD36DAC24BEEB810078A9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD36DA824BEEB810078A9EC /* SubmoduleExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF6F74E824BEE91E0084A760;
+			remoteInfo = SubmoduleExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFD36DB724BEECD80078A9EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFD36DB624BEECD80078A9EC /* SubmoduleExample.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF6F74B224BEDAE60084A760 /* MainForSubmoduleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainForSubmoduleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +50,7 @@
 		AF6F74BE24BEDAE70084A760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6F74C124BEDAE70084A760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6F74C324BEDAE70084A760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD36DA824BEEB810078A9EC /* SubmoduleExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubmoduleExample.xcodeproj; path = SubmoduleExample/SubmoduleExample/SubmoduleExample.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD36DB524BEECD80078A9EC /* SubmoduleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +70,7 @@
 			children = (
 				AF6F74B424BEDAE60084A760 /* MainForSubmoduleExample */,
 				AF6F74B324BEDAE60084A760 /* Products */,
+				AFD36DA724BEEB810078A9EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +96,22 @@
 			path = MainForSubmoduleExample;
 			sourceTree = "<group>";
 		};
+		AFD36DA724BEEB810078A9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD36DA824BEEB810078A9EC /* SubmoduleExample.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFD36DA924BEEB810078A9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +122,7 @@
 				AF6F74AE24BEDAE60084A760 /* Sources */,
 				AF6F74AF24BEDAE60084A760 /* Frameworks */,
 				AF6F74B024BEDAE60084A760 /* Resources */,
+				AFD36DB724BEECD80078A9EC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +159,28 @@
 			mainGroup = AF6F74A924BEDAE60084A760;
 			productRefGroup = AF6F74B324BEDAE60084A760 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFD36DA924BEEB810078A9EC /* Products */;
+					ProjectRef = AFD36DA824BEEB810078A9EC /* SubmoduleExample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AF6F74B124BEDAE60084A760 /* MainForSubmoduleExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SubmoduleExample.framework;
+			remoteRef = AFD36DAC24BEEB810078A9EC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AF6F74B024BEDAE60084A760 /* Resources */ = {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SubmoduleExample
 
 class ViewController: UIViewController {
 
