@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF17D65324BEF60F007A79E6 /* SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; };
+		AF17D65424BEF60F007A79E6 /* SubmoduleExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF6F74B624BEDAE60084A760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F74B524BEDAE60084A760 /* AppDelegate.swift */; };
 		AF6F74B824BEDAE60084A760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F74B724BEDAE60084A760 /* SceneDelegate.swift */; };
 		AF6F74BA24BEDAE60084A760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F74B924BEDAE60084A760 /* ViewController.swift */; };
 		AF6F74BD24BEDAE60084A760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74BB24BEDAE60084A760 /* Main.storyboard */; };
 		AF6F74BF24BEDAE70084A760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74BE24BEDAE70084A760 /* Assets.xcassets */; };
 		AF6F74C224BEDAE70084A760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F74C024BEDAE70084A760 /* LaunchScreen.storyboard */; };
-		AFD36DB524BEECD80078A9EC /* SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; };
-		AFD36DB624BEECD80078A9EC /* SubmoduleExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AFD36DB724BEECD80078A9EC /* Embed Frameworks */ = {
+		AF17D65524BEF60F007A79E6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AFD36DB624BEECD80078A9EC /* SubmoduleExample.framework in Embed Frameworks */,
+				AF17D65424BEF60F007A79E6 /* SubmoduleExample.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD36DB524BEECD80078A9EC /* SubmoduleExample.framework in Frameworks */,
+				AF17D65324BEF60F007A79E6 /* SubmoduleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 				AF6F74AE24BEDAE60084A760 /* Sources */,
 				AF6F74AF24BEDAE60084A760 /* Frameworks */,
 				AF6F74B024BEDAE60084A760 /* Resources */,
-				AFD36DB724BEECD80078A9EC /* Embed Frameworks */,
+				AF17D65524BEF60F007A79E6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
