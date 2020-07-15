@@ -13,8 +13,8 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    
+    let kkk = CustomClass()
+    print(kkk.name)
   }
 
 
