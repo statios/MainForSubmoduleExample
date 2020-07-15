@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6779491D3949F4665A7DF864 /* Pods_MainForSubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A379F42CE893DB22B41380F0 /* Pods_MainForSubmoduleExample.framework */; };
 		AF17D65324BEF60F007A79E6 /* SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; };
 		AF17D65424BEF60F007A79E6 /* SubmoduleExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD36DAD24BEEB810078A9EC /* SubmoduleExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF6F74B624BEDAE60084A760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F74B524BEDAE60084A760 /* AppDelegate.swift */; };
@@ -63,7 +62,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF17D65324BEF60F007A79E6 /* SubmoduleExample.framework in Frameworks */,
-				6779491D3949F4665A7DF864 /* Pods_MainForSubmoduleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +123,6 @@
 				D9C572FB361F0EBDCFAF95CA /* Pods-MainForSubmoduleExample.debug.xcconfig */,
 				BD272F5F87607127F483BEBA /* Pods-MainForSubmoduleExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
