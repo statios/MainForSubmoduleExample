@@ -6,5 +6,5 @@ target 'MainForSubmoduleExample' do
   use_frameworks!
 
   # Pods for MainForSubmoduleExample
-  pod 'RxSwift'
+
 end
