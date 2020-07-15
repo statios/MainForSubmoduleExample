@@ -1,0 +1,3 @@
+[submodule "MainForSubmoduleExample/SubmoduleExample"]
+	path = MainForSubmoduleExample/SubmoduleExample
+	url = https://github.com/statios/SubmoduleExample
